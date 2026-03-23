@@ -1,0 +1,7 @@
+{
+    "FullName": "BossSpawnNotifier",
+    "Description": "Simple plugin template",
+    "Version": 0.1,
+    "MinApiVersion": 1.19,
+    "Dependencies": []
+}

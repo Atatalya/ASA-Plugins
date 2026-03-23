@@ -1,0 +1,66 @@
+{
+  "Discord": {
+    "WebhookUrl": "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN",
+    "BotUsername": "ARK Boss Alert",
+    "BotAvatarUrl": "",
+    "EmbedColor": 16711680
+  },
+  "Notification": {
+    "MessageTemplate": "⚠️ **{BossName}** がワールドにスポーンしました！",
+    "IncludeLocation": true,
+    "PingRoleId": "",
+    "CooldownSeconds": 60
+  },
+  "Bosses": [
+    {
+      "ClassName": "Mega_Meg_Character_BP_C",
+      "DisplayName": "メガロドン (アルファ)",
+      "Enabled": true
+    },
+    {
+      "ClassName": "MegaWyvern_Character_BP_C",
+      "DisplayName": "キングタイタン",
+      "Enabled": true
+    },
+    {
+      "ClassName": "Dragon_Character_BP_C",
+      "DisplayName": "ドラゴン",
+      "Enabled": true
+    },
+    {
+      "ClassName": "Gorilla_Character_BP_C",
+      "DisplayName": "ブルードマザー",
+      "Enabled": true
+    },
+    {
+      "ClassName": "Spider_Character_BP_C",
+      "DisplayName": "メガピテクス",
+      "Enabled": true
+    },
+    {
+      "ClassName": "LavaGolem_Character_BP_C",
+      "DisplayName": "ラバゴーレム",
+      "Enabled": true
+    },
+    {
+      "ClassName": "IceWorm_Male_Summoned_C",
+      "DisplayName": "アイスワーム・キング",
+      "Enabled": true
+    },
+    {
+      "ClassName": "Rockwell_Character_BP_C",
+      "DisplayName": "ロックウェル",
+      "Enabled": true
+    },
+    {
+      "ClassName": "MegaMek_Character_BP_C",
+      "DisplayName": "メガミーク",
+      "Enabled": true
+    },
+    {
+      "ClassName": "Titanosaur_Character_BP_C",
+      "DisplayName": "タイタノサウルス",
+      "Enabled": false
+    }
+  ]
+}
